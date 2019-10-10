@@ -1,0 +1,35 @@
+
+.SearchBar {
+  box-sizing:border-box;
+  position: fixed;
+  top:0;
+  width: 100%;
+  background-color: lightgrey;
+  border: 1px solid grey;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;;
+  align-items: center;
+  padding: 10px;
+  height: 150px;
+}
+
+.SearchBar h1 {
+  /* position: absolute;
+  top:-18px;
+  left: 10px; */
+  font-size:1.8rem;
+}
+
+@media only screen and (min-width: 600px) {
+.SearchBar {
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 100px;
+}
+.SearchBar h1 {
+  position: absolute;
+  top:0px;
+  left: 10px;
+}
+}

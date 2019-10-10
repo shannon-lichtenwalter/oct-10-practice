@@ -1,0 +1,6 @@
+.ControlBar__btn {
+  box-sizing:border-box;
+  display: inline-block;
+  border: 1px solid grey;
+  padding: 3px;
+}
